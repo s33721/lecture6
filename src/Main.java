@@ -8,5 +8,8 @@ public class Main {
         Company c = new Company("Pjatk");
         c.addEmployee(e);
         c.addEmployee(t);
+        //IoC - Inversion of Control
+        Student s = new Student(33721, "John", "Paypal");
+
     }
 }
